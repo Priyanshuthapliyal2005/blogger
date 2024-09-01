@@ -6,7 +6,7 @@ export const dynamic = 'force-dynamic'; // Ensure the route is always dynamic
 export async function GET(req) {
   try {
     const client = await clientPromise;
-    const db = client.db('IdeaSphereBlog');
+    const db = client.db('bloggerBlog');
     const blogsCollection = db.collection('blogs');
 
   

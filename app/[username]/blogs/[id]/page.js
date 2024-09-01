@@ -10,7 +10,7 @@ const BlogDetailPage = async ({ params }) => {
   const session = await getServerSession(authOptions);
 
   const client = await clientPromise;
-  const db = client.db('IdeaSphereBlog');
+  const db = client.db('bloggerBlog');
   const blogsCollection = db.collection('blogs');
 
   let blog;

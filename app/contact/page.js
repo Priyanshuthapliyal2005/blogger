@@ -20,12 +20,12 @@ const ContactPage = () => {
           You can also follow us on our social media channels to stay updated with the latest news and updates:
         </p>
         <div className="flex justify-center space-x-4 mb-4" style={{ fontFamily: 'monospace' }}>
-          {/* <a href="https://www.facebook.com/ideasphere" className="text-yellow-500 hover:underline">Facebook</a>
-          <a href="https://www.twitter.com/ideasphere" className="text-yellow-500 hover:underline">Twitter</a>
-          <a href="https://www.linkedin.com/company/ideasphere" className="text-yellow-500 hover:underline">LinkedIn</a> */}
+          {/* <a href="https://www.facebook.com/blogger" className="text-yellow-500 hover:underline">Facebook</a>
+          <a href="https://www.twitter.com/blogger" className="text-yellow-500 hover:underline">Twitter</a>
+          <a href="https://www.linkedin.com/company/blogger" className="text-yellow-500 hover:underline">LinkedIn</a> */}
         </div>
         <p className="text-yellow-500" style={{ fontFamily: 'monospace' }}>
-          Thank you for being a part of <span className="text-yellow-500">IdeaSphere</span>. We look forward to connecting with you!
+          Thank you for being a part of <span className="text-yellow-500">blogger</span>. We look forward to connecting with you!
         </p>
       </div>
     </div>

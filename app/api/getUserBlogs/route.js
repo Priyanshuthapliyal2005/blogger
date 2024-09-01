@@ -11,7 +11,7 @@ export async function GET(req) {
 
   const email = session.user.email;
   const client = await clientPromise;
-  const db = client.db('IdeaSphereBlog');
+  const db = client.db('bloggerBlog');
   const userCollection = db.collection('users');
   const blogsCollection = db.collection('blogs');
 

@@ -26,7 +26,7 @@ export async function PUT(req) {
     }
 
     const client = await clientPromise;
-    const db = client.db('IdeaSphereBlog');
+    const db = client.db('bloggerBlog');
     const blogsCollection = db.collection('blogs');
 
     const updateData = {

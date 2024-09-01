@@ -8,7 +8,7 @@ export async function GET(request) {
     const { searchParams } = new URL(request.url);
     const email = searchParams.get('email');
     const client = await clientPromise;
-    const db = client.db('IdeaSphereBlog');
+    const db = client.db('bloggerBlog');
     const userCollection = db.collection('users');
     const user = await userCollection.findOne({ email });
     if (!user) {

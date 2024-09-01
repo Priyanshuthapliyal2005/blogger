@@ -15,7 +15,7 @@ export const DELETE = async (req) => {
     const userEmail = session.user.email;
 
     const client = await clientPromise;
-    const db = client.db('IdeaSphereBlog');
+    const db = client.db('bloggerBlog');
     const blogsCollection = db.collection('blogs');
 
     const blog = await blogsCollection.findOne({ _id: new ObjectId(blogId) });

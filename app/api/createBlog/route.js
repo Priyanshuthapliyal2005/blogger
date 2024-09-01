@@ -21,7 +21,7 @@ export const POST = async (req, res) => {
     const coverImage = formData.get('coverImage');
 
     const client = await clientPromise;
-    const db = client.db('IdeaSphereBlog');
+    const db = client.db('bloggerBlog');
     const blogsCollection = db.collection('blogs');
     const usersCollection = db.collection('users');
 

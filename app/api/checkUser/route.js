@@ -9,7 +9,7 @@ export async function GET(req) {
   }
 
   const client = await clientPromise;
-  const db = client.db('IdeaSphereBlog');
+  const db = client.db('bloggerBlog');
   const userCollection = db.collection('users');
 
   const user = await userCollection.findOne({ email: username });

@@ -13,7 +13,7 @@ const authOptions = {
   callbacks: {
     async signIn({ user, account, profile, email, credentials }) {
       const client = await clientPromise;
-      const db = client.db('IdeaSphereBlog');
+      const db = client.db('bloggerBlog');
       const userCollection = db.collection('users');
       console.log(user)
       // Check if the user already exists in the database
